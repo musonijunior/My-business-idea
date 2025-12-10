@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee Haven | Artisanal Coffee & Cozy Atmosphere</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+<a href="#main-content" class="sr-only">Skip to main content</a>
+<header>
+<div class="container header-container">
+<div class="logo">
+<i class="fas fa-coffee"></i>
+Coffee <span>Haven</span></div>
+<button class="mobile-menu-btn" aria-label="Toggle navigation menu">
+<i class="fas fa-bars"></i>
+</button>
+
+<ul class="nav-menu">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#testimonials">Testimonials</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul></div>
+</header>
+
+<section class="hero" id="home">
+<div class="container">
+<div class="hero-content">
+<h1>Artisanal Coffee & Cozy Atmosphere</h1>
+<p>Experience the blend of coffee beans skilled baristas and a welcoming environment, at Coffee Haven. We roast our beans every day to guarantee the freshest cup.</p>
+<div class="hero-btns">
+<a href="#menu" class="btn">View Our Menu</a>
+<a href="#contact" class="btn btn-secondary">Visit Us Today</a></div>
+</div></div>
+</section>
+
+<section class="section" id="about">
+<div class="container">
+<h2 class="section-title">Our Story</h2>
+<div class="about-content">
+<div class="about-text">
+<p>Founded in 2010 Coffee Haven began as a neighborhood café, driven by a mission: to deliver exceptional coffee in a warm and welcoming atmosphere. Our founders, two coffee enthusiasts committed to quality traveled around the world to source the beans and perfect traditional brewing techniques.</p>
+<p>Today we continue that tradition by roasting our beans here and training our baristas to craft each cup with consistency. To us coffee is not merely a beverage—it embodies a moment of comfort, connection and inspiration.</p>
+<p>At Coffee Haven we commit to accountability by supporting agricultural practices and giving back to our local community.</p></div>
+<div class="about-image">
+<img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Coffee Haven interior with cozy seating">
+</div></div>
+<div class="features">
+<div class="feature">
+<i class="fas fa-seedling"></i>
+<h3>Ethically Sourced</h3>
+<p>We partner with eco-farms dedicated to trade and environmental stewardship.</p>
+</div>
+<div class="feature">
+<i class="fas fa-fire"></i>
+<h3>Freshly Roasted</h3>
+<p>We roast our beans daily in batches to ensure the flavor and freshness.</p>
+</div>
+<div class="feature">
+<i class="fas fa-users"></i>
+<h3>Community Focused</h3>
+<p>We host community. Support local initiatives to strengthen neighborhood connections.</p>
+</div>
+<div class="feature">
+<i class="fas fa-award"></i>
+<h3>Award Winning</h3>
+<p>Recognized for excellence in coffee quality and customer service by industry experts.</p>
+</div></div>
+</div>
+</section>
+
+<section class="section menu" id="menu">
+<div class="container">
+<h2 class="section-title">Our Menu</h2>
+<div class="menu-tabs">
+<button class="tab-btn active" data-category="all">All Items</button>
+<button class="tab-btn" data-category="coffee">Coffee</button>
+<button class="tab-btn" data-category="tea">Tea</button>
+<button class="tab-btn" data-category="food">Food</button>
+<button class="tab-btn" data-category="desserts">Desserts</button></div>
+<div class="menu-grid" id="menu-items">
+    
+<div class="menu-item" data-category="coffee">
+<img src="https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Rich espresso in a small cup">
+<div class="menu-item-content">
+<h3>Espresso <span class="price">$3.50</span></h3>
+<p>Our signature rich and bold espresso, made from single-origin beans.</p></div>
+</div>
+<div class="menu-item" data-category="coffee">
+<img src="https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Cappuccino with latte art">
+<div class="menu-item-content">
+<h3>Cappuccino <span class="price">$4.50</span></h3>
+<p>Perfectly balanced espresso with steamed milk and a thick layer of foam.</p></div></div>
+<div class="menu-item" data-category="coffee">
+<img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Cold brew coffee in a glass">
+<div class="menu-item-content">
+<h3>Cold Brew <span class="price">$4.75</span></h3>
+<p>Smooth, refreshing cold brew coffee steeped for 18 hours.</p>
+</div></div>
+<div class="menu-item" data-category="coffee">
+<img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Latte with beautiful art">
+<div class="menu-item-content">
+<h3>Vanilla Latte <span class="price">$5.25</span></h3>
+<p>Espresso with steamed milk and a touch of vanilla syrup.</p>
+</div></div>
+
+<div class="menu-item" data-category="tea">
+<img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Earl Grey tea in a teacup">
+<div class="menu-item-content">
+<h3>Earl Grey <span class="price">$3.75</span></h3>
+<p>Classic black tea infused with bergamot oil for a fragrant cup.</p>
+</div></div>
+<div class="menu-item" data-category="tea">
+<img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Green tea in a glass cup">
+<div class="menu-item-content">
+<h3>Jasmine Green <span class="price">$3.50</span></h3>
+<p>Delicate green tea scented with jasmine flowers for a floral aroma.</p>
+</div></div>
+<div class="menu-item" data-category="tea">
+<img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Chamomile tea">
+<div class="menu-item-content">
+<h3>Chamomile <span class="price">$3.25</span></h3>
+<p>Soothing herbal tea perfect for relaxation and winding down.</p>
+</div></div>
+
+<div class="menu-item" data-category="food">
+<img src="https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Avocado toast with toppings">
+<div class="menu-item-content">
+<h3>Avocado Toast <span class="price">$8.50</span></h3>
+<p>Smashed avocado on artisan bread with cherry tomatoes and microgreens.</p>
+</div></div>
+<div class="menu-item" data-category="food">
+<img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Freshly baked croissant">
+<div class="menu-item-content">
+<h3>Butter Croissant <span class="price">$3.25</span></h3>
+<p>Freshly baked, flaky croissant made with European butter.</p>
+</div></div>
+<div class="menu-item" data-category="food">
+<img src="download.jpg" alt="Breakfast sandwich">
+<div class="menu-item-content">
+<h3>Breakfast Sandwich <span class="price">$7.50</span></h3>
+<p>Egg, cheese, and your choice of bacon or sausage on a croissant.</p></div></div>
+
+<div class="menu-item" data-category="desserts">
+<img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Chocolate cake slice">
+<div class="menu-item-content">
+<h3>Chocolate Cake <span class="price">$5.50</span></h3>
+<p>Rich, moist chocolate cake with ganache frosting.</p>
+</div>
+</div>
+<div class="menu-item" data-category="desserts">
+<img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Blueberry muffin on a plate">
+<div class="menu-item-content">
+<h3>Blueberry Muffin <span class="price">$3.75</span></h3>
+<p>Fresh blueberry-filled homemade muffin.</p></div></div>
+<div class="menu-item" data-category="desserts">
+<img src="https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Chocolate chip cookie">
+<div class="menu-item-content">
+<h3>Chocolate Chip Cookie <span class="price">$2.50</span></h3>
+<p>Warm, chewy cookie with melty chocolate chips.</p></div></div>
+</div></div>
+</section>
+
+<section class="section" id="gallery">
+<div class="container">
+<h2 class="section-title">Our Space</h2>
+<div class="gallery-grid">
+<div class="gallery-item">
+<img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Coffee shop interior with cozy seating">
+<div class="gallery-overlay">
+<i class="fas fa-search-plus"></i>
+</div></div>
+<div class="gallery-item">
+<img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Barista making coffee">
+<div class="gallery-overlay">
+<i class="fas fa-search-plus"></i></div></div>
+<div class="gallery-item">
+<img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Close-up of coffee beans">
+<div class="gallery-overlay">
+<i class="fas fa-search-plus"></i></div></div>
+<div class="gallery-item">
+<img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Latte art on a cappuccino">
+<div class="gallery-overlay">
+<i class="fas fa-search-plus"></i>
+</div></div>
+<div class="gallery-item">
+<img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Coffee on a wooden table">
+<div class="gallery-overlay">
+<i class="fas fa-search-plus"></i></div></div>
+<div class="gallery-item">
+<img src="https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Coffee shop exterior">
+<div class="gallery-overlay">
+<i class="fas fa-search-plus"></i></div></div>
+</div></div>
+</section>
+
+<section class="section testimonials" id="testimonials">
+<div class="container">
+<h2 class="section-title">Customer Testimonials</h2>
+<div class="testimonials-container">
+<div class="testimonial">
+<img src="sj.jpg" alt="Sarah Johnson">
+<p text">"The best coffee, in town! I come every day before work begins. The atmosphere is very welcoming. The baristas remember my name and usual order."</p>
+<p class="testimonial-author">- Sarah Johnson</p></div>
+</div></div>
+</section>
+
+<section class="section contact" id="contact">
+<div class="container">
+<h2 class="section-title">Get In Touch</h2>
+<div class="contact-container">
+<div class="contact-info">
+<div class="contact-details">
+<div class="contact-detail">
+<i class="fas fa-map-marker-alt"></i>
+<p>16 KG 599 Street, Kigali. </p></div>
+<div class="contact-detail">
+<i class="fas fa-phone"></i>
+<p>+250 788 123 456</p></div>
+<div class="contact-detail">
+<i class="fas fa-envelope"></i>
+<p>hello@coffeehaven.com</p></div>
+<div class="contact-detail">
+<i class="fas fa-clock"></i>
+<p>Monday - Friday: 7am - 8pm<br>Saturday - Sunday: 8am - 6pm</p></div></div>
+<div class="map">
+<img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Coffee Haven location">
+</div></div>
+<div class="contact-form">
+<form id="contactForm">
+<div class="form-group">
+<label for="name">Name</label>
+<input type="text" id="name" class="form-control" required></div>
+<div class="form-group">
+<label for="email">Email</label>
+<input type="email" id="email" class="form-control" required></div>
+<div class="form-group">
+<label for="subject">Subject</label>
+<input type="text" id="subject" class="form-control" required></div>
+<div class="form-group">
+<label for="message">Message</label>
+<textarea id="message" class="form-control" required></textarea></div>
+<button type="submit" class="btn" id="submitBtn">
+<span class="loading" id="formLoading"></span>
+Send Message
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<div class="footer-content">
+<div class="footer-column">
+<h3>Coffee Haven</h3>
+<p>Your neighborhood destination for exceptional coffee, delicious food, and warm conversation.</p>
+<div class="social-links">
+<a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+<a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+<a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></div></div>
+<div class="footer-column">
+<h3>Quick Links</h3>
+<ul class="footer-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About Us</a></li>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li></ul></div>
+<div class="footer-column">
+<h3>Hours</h3>
+<ul class="footer-links">
+<li>Monday - Friday: 7am - 8pm</li>
+<li>Saturday - Sunday: 8am - 6pm</li>
+</ul></div>
+<div class="footer-column">
+<h3>Newsletter</h3>
+<p>Subscribe to our newsletter for updates and special offers.</p>
+<form id="newsletterForm">
+<div class="form-group">
+<input type="email" class="form-control" placeholder="Enter your email" required></div>
+<button type="submit" class="btn">Subscribe</button>
+</form></div></div>
+<div class="copyright">
+<p>&copy; 2023 Coffee Haven. All rights reserved.</p></div></div>
+</footer>
+<div class="modal" id="galleryModal">
+<div class="modal-content">
+<span class="close-modal">&times;</span>
+<img id="modalImage" src="" alt="">
+</div></div>
+<script src="script.js"></script>
+</body></html>
